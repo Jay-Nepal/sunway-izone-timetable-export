@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s ease; /* Added transition for smoother color change */
+}
+
+button:hover {
+  background-color: #45a049; /* Darker shade on hover */
+}
+
+button:active {
+  transform: scale(0.95); /* Slight scaling down on click */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+  color: #555;
+}

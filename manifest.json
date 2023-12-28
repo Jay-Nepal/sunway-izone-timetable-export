@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Timetable Exporter",
+  "version": "1.0",
+  "description": "Export school timetable to Google Calendar",
+  "action": {
+    "permissions": ["activeTab"],
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "content.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}

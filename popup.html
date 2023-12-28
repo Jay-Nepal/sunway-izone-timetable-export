@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sunway Izone Timetable Exporter</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <h3>
+      Sunway Izone <br />
+      Timetable Exporter
+    </h3>
+    <div>
+      <label for="start_date">Start Date (Monday):</label>
+      <input type="date" id="start_date" name="start_date" required />
+
+      <label for="repeat_count">Number of Times to Repeat:</label>
+      <input
+        type="number"
+        id="repeat_count"
+        name="repeat_count"
+        min="1"
+        required
+      />
+      <button id="extract">Extract Now</button>
+    </div>
+
+    <script src="js/popup.js"></script>
+  </body>
+</html>
